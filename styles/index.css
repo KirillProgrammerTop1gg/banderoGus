@@ -2,6 +2,20 @@ body{
     font-family: 'Montserrat';
 }
 /* hero-section */
+.hero-section{
+    background: linear-gradient(269.88deg, #A5DEFF 13.96%, #FCFEFF 99.89%);
+    display: flex;
+    width: 100%;
+}
+.hero-container{
+    padding: 140px 52px 60px 95px;
+}
+.hero-figure{
+    background: #FFFFFF;
+    width: 573px;
+    padding: 49px 0 47px 56px;
+    height: 520px;
+}
 .hero-tagline{
     font-family: 'Montserrat';
     font-weight: 700;
@@ -15,6 +29,7 @@ body{
     font-size: 24px;
     line-height: 1;
     color: #FF6B0A;
+    margin-top: 16px;
 }
 .hero-title{
     font-family: 'Montserrat';
@@ -25,6 +40,7 @@ body{
     display: flex;
     align-items: center;
     color: #000000;
+    margin-top: 48px;
 }
 .hero-description{
     font-family: 'Montserrat';
@@ -32,6 +48,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     color: #121314;
+    margin-top: 24px;
 }
 .hero-button{
     font-family: 'Montserrat';
@@ -43,24 +60,45 @@ body{
     border: 0;
     background: #FF6B0A;
     border-radius: 8px;
+    margin-top: 47px;
 }
 
 /* facts-section */
+.facts-section{
+    padding: 52px 0 100px;
+}
+.facts-gerb{
+    display: block;
+    margin: 0 auto;
+}
 .facts-title{
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 48px;
     line-height: 0.5;
-    text-align: center;   
     color: #121314;
+    text-align: center;
+    margin-top: 18px;
 }
 .facts-text{
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
     color: #121314;
+    text-align: center;
+    margin-top: 16px;
+    width: 875px;
+    margin: 16px auto 0;
+}
+.facts-list{
+    display: flex;
+    justify-content: space-between;
+    width: 1212px;
+    margin: 0 auto;
+}
+.facts-item{
+    width: 374px;
 }
 .facts-name{
     font-family: 'Montserrat';
@@ -69,6 +107,7 @@ body{
     line-height: 1;
     text-align: center;
     color: #121314;
+    margin-top: 22px;
 }
 .facts-description{
     font-family: 'Montserrat';
@@ -77,4 +116,5 @@ body{
     line-height: 1.5;
     text-align: center;
     color: #121314;
+    margin-top: 22px;
 }
